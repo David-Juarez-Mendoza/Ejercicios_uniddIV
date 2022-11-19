@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appfarmaciab" >
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppFarmaciaB" >
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARqTZIJrulBazQZ2Zif1Rb9-B1caWZYnI" />
+
+        <activity
+            android:name=".ventanas.Ubicacion"
+            android:exported="false"
+            android:label="@string/title_activity_ubicacion" />
+        <activity
+            android:name=".ventanas.Base"
+            android:exported="false" />
+        <activity
+            android:name=".ConfiguracionBD.VerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfiguracionBD.NuevoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ventanas.Publicidad"
+            android:exported="false" />
+        <activity android:name=".ventanas.LoginActivity"
+            android:exported="false"/>
+        <activity android:name=".ventanas.codigobarras"
+            android:exported="false"/>
+        <activity android:name=".ventanas.HomeActivity"
+            android:exported="false"/>
+        <activity android:name=".ventanas.QR"
+            android:exported="false"/>
+        <activity android:name=".Menus"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".ventanas.GeneradorQR"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ventanas.CaptureAct"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"/>
+    </application>
+
+</manifest>

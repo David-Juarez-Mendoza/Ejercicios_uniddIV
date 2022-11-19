@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen3"
+    tools:context=".ventanas.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnQR"
+        android:text="Estas herraramientas te seran utiles para poner o escanear ofertas en tus farmacias de confianza"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/btnLector1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lector de barras/QR"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnQR"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginTop="25dp"
+        />
+    <Button
+        android:id="@+id/btcarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar y ver Farmacias"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnLector1"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:layout_marginTop="350dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GestorDFarmacia</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+    <string name="nombre">Nombre medicamento</string>
+    <string name="uso">Uso</string>
+    <string name="bajas">Bajas</string>
+    <string name="cambios">Cambios</string>
+    <string name="busquedas">Busquedas</string>
+    <string name="altas">Altas</string>
+    <string name="semestre">Semestre</string>
+    <string name="codigo">Codigo</string>
+    <string name="precio">Precio</string>
+    <string name="hint_nombre">Nombre Medicamento:</string>
+    <string name="hint_telefono">Codigo:</string>
+    <string name="hint_correo_electronico">Precio:</string>
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="title_activity_ubicacion">Ubicacion</string>
+</resources>

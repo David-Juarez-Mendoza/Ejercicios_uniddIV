@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basededatos</string>
+    <string name="nombre">Nombre medicamento</string>
+    <string name="uso">Uso</string>
+    <string name="bajas">Bajas</string>
+    <string name="cambios">Cambios</string>
+    <string name="busquedas">Busquedas</string>
+    <string name="altas">Altas</string>
+    <string name="semestre">Semestre</string>
+    <string name="codigo">Codigo</string>
+    <string name="precio">Precio</string>
+</resources>

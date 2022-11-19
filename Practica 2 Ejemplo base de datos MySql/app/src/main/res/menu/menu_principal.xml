@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item1"
+    android:title="Registro"
+    android:icon="@drawable/ic_registro"/>
+    <item android:id="@+id/item2"
+        android:title="Promocion"
+        android:icon="@drawable/ic_promo"/>
+    <item android:id="@+id/item3"
+        android:title="Ubicacion"
+        android:icon="@drawable/ic_map"/>
+    <item android:id="@+id/item4"
+        android:title="Publicidad"
+        android:icon="@drawable/ic_imagen"/>
+
+
+
+
+
+</menu>
